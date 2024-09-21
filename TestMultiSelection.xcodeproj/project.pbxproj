@@ -27,6 +27,7 @@
 		C6A1DB2D2C9E5F1C00B512AC /* TestMultiSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMultiSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A1DB402C9E5F1D00B512AC /* TestMultiSelectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMultiSelectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A1DB4A2C9E5F1D00B512AC /* TestMultiSelectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMultiSelectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A1DB6F2C9E8AE300B512AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		C6A1DB242C9E5F1C00B512AC = {
 			isa = PBXGroup;
 			children = (
+				C6A1DB6F2C9E8AE300B512AC /* README.md */,
 				C6A1DB2F2C9E5F1C00B512AC /* TestMultiSelection */,
 				C6A1DB432C9E5F1D00B512AC /* TestMultiSelectionTests */,
 				C6A1DB4D2C9E5F1D00B512AC /* TestMultiSelectionUITests */,

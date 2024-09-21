@@ -8,3 +8,5 @@ a range always selects from the first item to wherever you click.
 
 https://github.com/user-attachments/assets/ffe144e2-dd7b-45bc-b3a4-fe4a74349165
 
+**Update:** This appears to be due to `NavigationLink(content:label)`. If you use `NavigationLink(value:)`
+instead, it seemd to behave as expected. Of course, this introduces other limitations.
