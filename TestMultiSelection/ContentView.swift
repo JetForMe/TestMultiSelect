@@ -11,10 +11,11 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+	@State private var multiSelection = Set<PersistentIdentifier>()
 
     var body: some View {
         NavigationSplitView {
-            List {
+			List(selection: self.$multiSelection) {
                 ForEach(items) { item in
                     NavigationLink {
                         Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
