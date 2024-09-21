@@ -6,4 +6,5 @@ On macOS 14.6.1, selecting any more than one item cause the selection to
 briefly appear before being deselected. On macOS 15.0, shift-selecting
 a range always selects from the first item to wherever you click.
 
-https://jetforme-org.sfo2.cdn.digitaloceanspaces.com/misc/posts/2024-09/TestSelection.mp4
+https://github.com/user-attachments/assets/ffe144e2-dd7b-45bc-b3a4-fe4a74349165
+
